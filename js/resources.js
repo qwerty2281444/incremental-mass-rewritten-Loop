@@ -128,6 +128,12 @@ const RESOURCES_DIS = {
         resetBtn() { INF.goInf() },
     },
 
+    loop: {
+        unl ()=>true,
+        icon: "mass",
+        class: "white",
+        desc: (gs)=>formatMass(player.loops)+"<br>"+formatGain(player.loops,true),
+        {
     /*
     mass: {
         unl: ()=>true,
